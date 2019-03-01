@@ -1,14 +1,9 @@
 #Algoritmo que imprima los 15 primeros números impares negativos (iniciando en -1)
-#Para variar un poco vamos a declarar un inicio y final para poder utilizar la función for
-start=-1
-finish=-32
-print ("Bienvenido! A continuación se va a imprimir los 15 primeros números impares negativos.")
-for x in range(start, finish -1):
-    #Si el número es divisible por cualquier número y 2 , no va a ser primo
-    if x<1:
-        for y in range(2,x):
-            if (x%y) == 0:
-                break
-            else:
-                print(x)
+#Para variar un poco vamos a declarar un inicio y final para poder utilizar la función for mediante declarando los valores de x , muy parecido al primer ejercicio
+x = [-1,-3,-5,-7,-9,-11,-13,-15,-17,-19,-21,-23,-25,-27,-29]
+for x in x:
+    print("Los primeros 15 números impares negativos desde -1 son : {}".format(x))
+
+#Desarrollado por Pedro Gómez / ID:000396221
+
                     
